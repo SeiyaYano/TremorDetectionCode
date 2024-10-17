@@ -1,5 +1,8 @@
 Corresponding Paper
-Yano, S., & Ide, S. (2024). Event-feature-based clustering reveals continuous distribution of tectonic tremors of 0.3–100 s: Application to western Japan. Geophysical Research Letters, 51, e2024GL108874. https://doi.org/10.1029/2024GL108874
+    Yano, S., & Ide, S. (2024)
+    Event-feature-based clustering reveals continuous distribution of tectonic tremors of 0.3–100 s: Application to western Japan
+    Geophysical Research Letters, 51, e2024GL108874
+    https://doi.org/10.1029/2024GL108874
 
 Structure
 TremorDetectionCode
