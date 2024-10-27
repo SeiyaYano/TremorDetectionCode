@@ -51,6 +51,7 @@ Event Feature Calculations ("run2.sh")
 3. When prompted with "time difference of duplication is automatically determined as:**** [sec]" and "Do you use this value as threshold? [y/n]", check the figure "savepath/year/figs/duplication.png" and confirm that the vertical dashed line separates duplicate and non-duplicate events. If it seems to work well, enter "y". Otherwise, enter the threshold of the time difference [sec].
 
 Tremor Catalog Compilation ("run3.sh")
+*Please note that this step may not work properly if there are not enough events because we employ density-based clustering algorithm in this step.
 1. Set the year of interest in "run3.sh". If you want to analyze whole period, you can specify "all" instead.
 2. Set the latitudes and longitudes in "src/const" by changing "lat_range" and "lon_range".
 3. When prompted with "label the cluster *:", refer to the figures in "savepath/result/clustering_result/clustering" and label the clusters appropriately, such as "tremor", "fast_shallow", "anthropogenic", etc. Note that the cluster "-1" should be labeled as "noise".
