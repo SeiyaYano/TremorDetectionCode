@@ -40,7 +40,7 @@ TremorDetectionCode
 
 Usage
 Seismic Event Detection ("raws.in" and "run.sh")
-1. List the paths of all SAC files you use in the "raws.in" file
+1. List the paths of all SAC files you use in the "raws.in" file. SAC files should be prepared for each channel with a length of one day.
 2. Set the year of interest in "run.sh"
 3. Specify the analysis period in "run.sh" by setting "current" as the first day and "end" as the day after the last day
 4. Run "run.sh"
