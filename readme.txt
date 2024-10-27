@@ -54,7 +54,7 @@ Tremor Catalog Compilation ("run3.sh")
 *Please note that this step may not work properly if there are not enough events because we employ density-based clustering algorithm in this step.
 1. Set the year of interest in "run3.sh". If you want to analyze whole period, you can specify "all" instead.
 2. Set the latitudes and longitudes in "src/const" by changing "lat_range" and "lon_range".
-3. When prompted with "label the cluster *:", refer to the figures in "savepath/result/clustering_result/clustering" and label the clusters appropriately, such as "tremor", "fast_shallow", "anthropogenic", etc. Note that the cluster "-1" should be labeled as "noise".
+3. When "label the cluster *:" appears, refer to the figures in "savepath/result/clustering_result/clustering" and label the clusters appropriately, such as "tremor", "fast_shallow", "anthropogenic", etc. Note that the cluster "-1" should be labeled as "noise".
 4. When "threshold for T:" appears, review the figures "savepath/result/clustering_result/clustering/mZB.png" and "(same)/mZB_T.png", then enter the temporal threshold for identifying isolated events. Repeat this process for "threshold for R:" with "(same)/mZB_R.png", and repeat this process for "threshold for eta:" with "(same)/mZB_eta.png".
 5. When "Do you finish compiling quality A catalog? [y/n]" appears, examine the figures "savepath/result/clustering_result/clustering/QualityA.png" and "(same)/isolated.png". If the removal of isolated events seems successful, enter "y". Otherwise, you can adjust the thresholds for T, R, and eta again.
 6. When "maximum depth [km]:" and "minimum depth [km]:" appear, check the figures in "savepath/result/clustering_result/clustering" and enter the minimum and maximum depth of events to be reclassified.
